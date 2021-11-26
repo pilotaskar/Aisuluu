@@ -2,6 +2,8 @@ body {
     margin: 0;
     padding: 0;
     
+
+    
 }
 .container1 {
     margin: 0;
@@ -24,25 +26,16 @@ body {
   
 }
 
-.button {
-    background-color: #037ffc;
-    padding: 5px;
-    color: white;
-    border-radius: 5px;
-    text-decoration: none;
-}
 
-.button:hover {
-    color: white;
-    background-color: #0349fc;
-}
+
+
 
 /* BUILD PART */
 
 
 .build {
     width: 100%;
-    text-align: center;
+    
 }
 
 .build-bg {
@@ -57,9 +50,7 @@ body {
 
 }
 
-.email {
-    font-size: 200%;
-}
+
 
 .build {
     position: relative;
@@ -89,18 +80,25 @@ body {
 .card-one {
     display: flex;
     flex-direction: row;
-    color: #037ffc;
+    
 }
 
- .card-one p, .card-one span {
-    color: black;
-}
+
 
 .card-one i:hover {
 color: #0349fc;
 
 }
 
+#parent h2{
+  
+  margin-top: 20px;
+}
+
+#parent p {
+    font-size: 20px;
+    font-family: 'Hind Siliguri', sans-serif
+}
 
 /* Multiple Images  */
 
@@ -138,28 +136,33 @@ color: #0349fc;
   /* Multiple TEXT */
 
   .text {
-      text-align: center;
+      /* text-align: left; */
       margin-top: 20%;
-      font-size: 25px;
+      font-size: 20px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 510px;
+      font-family: 'Hind Siliguri', sans-serif;
+      
   }
 
 
 /* PEOPLE SAIS */
 
-.card-people h1 {
+.card-people h2 {
     text-align: center;
-    padding: 50px;
+    padding: 10px;
 }
 
  .people-pictures img {
      border-radius: 50%;
+     box-shadow: 0 5px 5px 0 #adb5bd;
  }
  .people-pictures {
      display: flex;
      /* flex-direction: row; */
      justify-content: space-around;
      align-items: center;
-     
      
  }
 
@@ -184,14 +187,12 @@ color: #0349fc;
     color: white;
   }
 
-  .signup {
-      text-align: center;
-      font-size: 25px;
-  }
+  /* .signup {
+    text-align: center;
+    font-size: 25px;
+  } */
 
-  .signup h2 {
-      margin-bottom: 20px;
-  }
+  
 
 
    /* FOOTER */
@@ -214,13 +215,10 @@ color: #0349fc;
 
 .social i {
     font-size: 30px;
-    color:#037ffc ;
     margin: 5px;
 }
 
- .social i:hover {
-     color: #0349fc;
- }
+
 
 
  /* RESPONSIVE */
@@ -262,14 +260,6 @@ footer {
  }
 
  
-/* .sibling-hover, #parent {
-    cursor: pointer;
-}
-.sibling-hover:hover ~ .sibling-highlight  {
-    background-color: red;
-    color: white;
-} */
-
 #parent:hover .parent-highlight {
     
     color:#0349fc;
