@@ -19,7 +19,6 @@ body {
 
 .top {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 15px;
@@ -33,12 +32,7 @@ body {
 /* BUILD PART */
 
 
-/* SIGN UP AISULUU */
-.build {
-    width: 100%;
-    
-}
-
+/* SIGN UP Jyldyz */
 
 .build-bg {
     position: relative;
@@ -66,15 +60,6 @@ body {
 
 
 
-
-
-
-
-.build {
-    position: relative;
-    background-size: cover;
-    
-}
 
 
 
